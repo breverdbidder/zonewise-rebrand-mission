@@ -177,13 +177,12 @@ Card styling: `border-navy-300 hover:border-orange-500 hover:shadow-lg transitio
 
 **Left panel (40% width):**
 - Navy background, white text
-- Static chat messages showing multilingual capability:
-  - EN: "What can I build at 123 Main St, Orlando?"
-  - ES: "¿Qué puedo construir en 456 Oak Ave, Miami?"
-  - HE: "מה אפשר לבנות ב-789 Palm Blvd, Tampa?"
-  - RU: "Что можно построить на 321 Pine St, Jacksonville?"
-- Language toggle: EN | ES | HE | RU (useState, orange active state)
-- Suggested actions list below chat
+- Static chat interface mockup showing NLP chatbot capability
+- Sample English prompt: "What can I build at 123 Main St, Orlando?"
+- Sample AI response with zoning details, setbacks, FAR
+- Language toggle bar: EN | ES | HE | RU (useState, orange active state)
+- The toggle is a UI indicator of multilingual NLP capability — do NOT fabricate translations
+- Suggested actions below chat: "View 3D Envelope", "Run CMA", "Check Liens", "Auction Calendar"
 
 **Right panel (60% width):**
 - Tab navigation: 🗺️ Map | 📅 Calendar | 📊 Analytics
